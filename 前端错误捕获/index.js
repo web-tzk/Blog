@@ -13,7 +13,7 @@ window.onerror = function (msg, url, line, col, error) {
 };
 
 
-/* Capture params
+/* Capture promise 捕捉异步错误
 * 被 reject 且没有 reject 处理器的时候
 */
 window.addEventListener('unhandledrejection', function (e) {
